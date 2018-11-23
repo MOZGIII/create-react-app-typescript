@@ -69,6 +69,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
     'snapshotSerializers',
     'watchPathIgnorePatterns',
     'moduleNameMapper',
+    'modulePathIgnorePatterns',
   ];
   if (overrides) {
     supportedKeys.forEach(key => {
